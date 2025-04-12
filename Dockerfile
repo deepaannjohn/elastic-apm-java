@@ -8,7 +8,7 @@ ENTRYPOINT [ \
   "java", \
   "-javaagent:/elastic-apm-agent.jar", \
   "-Delastic.apm.server_urls=https://my-observability-project-ec0716.apm.us-east-1.aws.elastic.cloud:443", \
-  "-Delastic.apm.api_key=", \
+  "-Delastic.apm.api_key=aWZQV0lKWUI3by1DTVJ3Wnp0UkY6dE5jdnlPVkJDMmc1eENuYUtJbGtxZw==", \
   "-Delastic.apm.service_name=springboot-app", \
   "-Delastic.apm.application_packages=com.gcoo", \
   "-Delastic.apm.environment=dev", \
